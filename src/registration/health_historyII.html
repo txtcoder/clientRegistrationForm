@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Atomous | Health History Part II</title>
+
+    <!-- Google Font Roboto 400,700 ,900-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <!-- Google Font ADAMINA 400 -->
+  	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
+  
+    <!-- Bootstrap core CSS -->
+	<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="page_title">
+      <div class="container">
+          <h1>TCM HEALTH CENTRE</h1>
+      </div>
+    </div>
+
+    <div class="page_name">
+    <h5> Health History Part II</h5>
+    </div>
+ 
+<!-- FORM START -->
+  <form>
+
+    <div id="pi_section2">
+      <div class="container">
+
+      <!-- Surgery Start -->
+
+      <div class="surgery_section">
+        <div class="container">
+          <div class="main_caption2">
+            <h5>Surgery</h5>
+          </div>
+            <ul class="left_padding_no">
+
+              <li>
+                <div class="row">
+                <!-- Date of Birth -->
+                  <div class="col-sm-3 pi2_padding">
+                    <div class="form-group">
+                      <label for="Type">Type:</label>
+                      <input type="text" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
+                    </div>
+                  </div>
+                  <!-- Height -->
+                  <div class="col-sm-3 pi2_padding">
+                    <div class="form-group">
+                      <label for="Date">Date</label>
+                      <input type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="pi2_padding">
+                <label for="Height">Current Symptoms:</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+              </li>
+
+              <li>
+                <button type="button" class="btn btn-default btn-lg" id="additional_surgery">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Additional Surgery
+                </button>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!-- Surgery End-->
+
+      <!-- Injury Start -->
+
+      <div class="injury_section">
+        <div class="container">
+          <div class="main_caption2">
+            <h5>Injury</h5>
+          </div>
+            <ul class="left_padding_no">
+
+              <li>
+                <div class="row">
+                <!-- Date of Birth -->
+                  <div class="col-sm-3 pi2_padding">
+                    <div class="form-group">
+                      <label for="type">Type:</label>
+                      <input type="text" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
+                    </div>
+                  </div>
+                  <!-- Height -->
+                  <div class="col-sm-3 pi2_padding">
+                    <div class="form-group">
+                      <label for="date">Date</label>
+                      <input type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="pi2_padding">
+                <label for="Height">Current Symptoms:</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+              </li>
+
+              <li>
+                <button type="button" class="btn btn-default btn-lg" id="additional_injury">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Additional Injury
+                </button>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!-- Injury End-->
+
+      <!-- Other Med Condition Start -->
+
+      <div class="other_section">
+        <div class="container">
+
+            <ul class="left_padding_no">
+
+              <li>
+                <label for="other_medical">Other Medical Conditions</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+              </li>
+            </ul>
+
+          </div>
+      </div>
+
+      <!--  Other Med Condition End-->
+
+      <!-- Special Note Start -->
+
+      <div class="specialnote_section">
+        <div class="container">
+
+            <ul class="left_padding_no">
+
+              <li>
+                <label for="special_note">Of Special Note <i>( pins, wires, artifical joints or limbs, special equpiment suc as wheelchairs, walker, cane, etc. )</i></label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!-- Special Note End-->
+
+      <!-- Physician Start -->
+
+      <div class="physician_section">
+        <div class="container">
+          <div class="main_caption2">
+            <h5>Primary Care Physician</h5>
+          </div>
+            <ul class="left_padding_no">
+
+              <li>
+                <div class="row">
+                <!-- Physician Name -->
+                  <div class="col-sm-4 pi2_padding">
+                    <div class="form-group">
+                      <label for="Name">Name</label>
+                      <input type="text" class="form-control form_with" id="physician_name" placeholder="Enter Physician's Name Here">
+                    </div>
+                  </div>
+                  <!-- Physician phone number -->
+                  <div class="col-sm-4 pi2_padding">
+                    <div class="form-group">
+                      <label for="phone_number">Phone Number</label>
+                      <input type="text" class="form-control form_with" id="physician_number" placeholder="Enter Phone Number Here">
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="row">
+                <!-- Physician Address -->
+                  <div class="col-sm-4 pi2_padding">
+                    <div class="form-group">
+                      <label for="address">Address</label>
+                      <input type="text" class="form-control form_with" id="physician_address" placeholder="Enter Physician's Address Here">
+                    </div>
+                  </div>
+                  <!-- Last Visit Date -->
+                  <div class="col-sm-4 pi2_padding">
+                    <div class="form-group">
+                      <label for="date_visit">Date of Last Visit</label>
+                      <input type="text" class="form-control form_with" id="physician_lastvisit" placeholder="YYYY/MM/DD">
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!-- Physician End-->
+
+      <!-- Present Involvement Start -->
+
+      <div class="involvement_section">
+        <div class="container">
+          <div class="main_caption2">
+            <h5>Present Involvement In Other Health Care:</h5>
+          </div>
+
+          <ul class="left_padding_no">
+
+            <li>
+            <div class="row">
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                  <input type="radio" id="inlineCheckbox1" name="contact" value="chiropractic"> Chiropractic
+                  </label>
+                </div>
+
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                    <input type="radio" id="inlineCheckbox2" name="contact" value="physiotherapy"> Physiotherapy
+                  </label>
+                </div>
+
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                    <input type="radio" id="inlineCheckbox3" name="contact" value="massage"> Massage Therapy
+                  </label>
+                </div>
+
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                      <input type="radio" id="inlineCheckbox4" name="contact" value="psychotherapy"> Psychotherapy
+                  </label>
+                </div>
+
+                <div class="col-sm-6">
+                  <label class="radio-inline checkbox-circle">
+                      <input type="radio" id="inlineCheckbox4" name="contact" value="tcm"> TCM (Acupuncture or Herbals)
+                  </label>
+                </div>
+
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                      <input type="radio" id="inlineCheckbox4" name="contact" value="other"> Others
+                  </label>
+                </div>
+
+              </div>
+              </li>
+
+              <li>
+              <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="If selected Others please list in this box"></textarea>
+              </li>
+
+
+          </div>
+      </div>
+
+      <!-- Present Involvement End-->
+
+      <!-- Current Medication Start -->
+
+      <div class="currentmed_section">
+        <div class="container">
+          <div class="main_caption2">
+            <h5>Current Medications:</h5>
+          </div>
+            <ul class="left_padding_no">
+
+              <li>
+                <div class="row">
+                <!-- Medication -->
+                  <div class="col-sm-3 pi2_padding">
+                    <div class="form-group">
+                      <label for="medication_name">Name</label>
+                      <input type="text" class="form-control form_with" id="medication_name" placeholder="Enter Your Medication Here">
+                    </div>
+                  </div>
+
+              <li class="pi2_padding">
+                <label for="Height">For What Condition?</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Condition Here"></textarea>
+              </li>
+
+              <li>
+                <button type="button" class="btn btn-default btn-lg" id="additional_surgery">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Additional Medications
+                </button>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!-- Current Medication End-->
+
+      <!-- Chemical & Radio Therapy Start -->
+
+      <div class="crtherapy_section">
+        <div class="container">
+
+          <ul class="left_padding_no">
+
+            <li>
+            <div class="row">
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                  <input type="radio" id="inlineCheckbox1" name="contact" value="chiropractic"> Chemical Therapy
+                  </label>
+                </div>
+
+                <div class="col-sm-3">
+                  <label class="radio-inline checkbox-circle">
+                    <input type="radio" id="inlineCheckbox2" name="contact" value="physiotherapy"> Radiotherapy
+                  </label>
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+      </div>
+
+      <!-- Chemical & Radio Therapy End-->
+
+      <!-- Supplement Start -->
+
+      <div class="supplement_section">
+        <div class="container">
+
+            <ul class="left_padding_no">
+
+              <li>
+                <label for="supplements">Supplements:</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Supplements Here"></textarea>
+              </li>
+
+              <li>
+                <button type="button" class="btn btn-default btn-lg" id="additional_medication">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Additional Medications
+                </button>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!--  Supplement End-->
+
+      <!-- Chinese Herbals Start -->
+
+      <div class="herbal_section">
+        <div class="container">
+
+            <ul class="left_padding_no">
+
+              <li>
+                <label for="herbal">Chinese Herbals:</label>
+                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Chinese Herbals Here"></textarea>
+              </li>
+
+              <li>
+                <button type="button" class="btn btn-default btn-lg" id="additional_medication">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Additional Chinese Herbals
+                </button>
+              </li>
+
+            </ul>
+
+          </div>
+      </div>
+
+      <!--  Chinese Herbals End-->
+        
+
+        <div class="page_indicator">
+              <ol class="carousel-indicators">   
+                  <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                  <li data-target="#slideshow" data-slide-to="1"></li>
+                  <li data-target="#slideshow" data-slide-to="2"></li>
+                  <li data-target="#slideshow" data-slide-to="3"></li>
+              </ol>
+        </div>
+
+        <button type="submit" class="btn btn-default next_btn pi_btn">Next</button>
+
+      </div>   
+    </div>
+
+  </form>
+<!-- FORM ENDS --> 
+
+    <!-- Phone version --> 
+
+    <div id="welcome_mobile">
+      <div class="container">
+        <ul>
+         <li><h1>WELCOME<br>TCM HEALTH CENTRE</h1></li>
+         <li><p>Client Registration Form is not compactable with Mobile Phones</p></li>
+        </ul>
+
+      </div>
+    </div>
+
+
+	 
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  	<!-- jQuery 3.1.1 --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<!-- Animation  js --> 
+  	<script src="../js/wow.min.js"></script>
+  	<script>
+   	new WOW().init();
+ 	 </script>
+
+   <script>
+    function textAreaAdjust(o) {
+        o.style.height = "1px";
+        o.style.height = (25+o.scrollHeight)+"px";
+    }
+</script>
+
+  
+    <script src="../js/script.js"></script>
+  
+  
+
+  </body>
+</html>
