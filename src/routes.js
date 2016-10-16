@@ -31,7 +31,7 @@
     .state('health_historyII', {
       url: '/health_historyII',
       templateUrl: 'src/registration/health_historyII.html',
-      controller: 'HealthHistoryControllerII as healthHistory'
+      controller: 'HealthHistoryControllerII as healthHistoryII'
     })
   }
 

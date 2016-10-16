@@ -15,6 +15,10 @@ function RegistrationService() {
     console.log(object);
     obj.push(object);
   };
+  this.updateHealthHistoryII = function(object){
+    console.log(object);
+    obj.push(object);
+  }
 }
 
 })();
