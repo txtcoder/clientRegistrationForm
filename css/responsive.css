@@ -124,11 +124,17 @@
 
 	.cp_line2{
 		width: 900px;
-		padding-top: 65px;
+		padding-top: 103px;
 	}
 
 	.cp_line3{
-		padding-top: 55px;
+		padding-top: 63px;
+		width: 900px;
+
+	}
+
+	.ps_group {
+		padding-top: 50px;
 		width: 900px;
 
 	}
@@ -507,19 +513,19 @@
 	/* Health History Choice */
 
 	.cp_line{
-		width: 750px;
+		width: 700px;
 		padding-left: 30px;
 	}
 
 	.cp_line2{
-		width: 750px;
+		width: 700px;
 		padding-left: 30px;
 		padding-top: 103px;
 
 	}
 
 	.cp_line3{
-		width: 750px;
+		width: 700px;
 		padding-left: 30px;
 		padding-top: 80px;
 
@@ -541,6 +547,12 @@
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
 		padding-top: 165px;
 		text-align: left;
+	}
+
+	.ps_group {
+		padding-top: 50px;
+		width: 700px;
+
 	}
 
 	#gyn_surgery{
@@ -744,6 +756,12 @@
 	.cp_line3{
 		width: 700px;
 		padding-top: 80px;
+	}
+
+	.ps_group {
+		padding-top: 50px;
+		width: 700px;
+
 	}
 
 	#gyn_surgery{
