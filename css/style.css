@@ -575,7 +575,26 @@
 		padding-bottom: 5px;
 	}
 
+	.ps_group {
+		position: absolute;
+		text-align: left;
+	}
 
+	.ps_group li{
+		padding-bottom: 12px;
+	}
+
+	.ps_group li p {
+		color: #6d6e70;
+	}
+
+	.ps_group>.top_border{
+		border-top: 1px solid #e6e7e8;
+	}
+
+	.ps_group>.top_border>p{
+		padding-top: 15px;
+	}
 
 	/* Current & Pain */
 
