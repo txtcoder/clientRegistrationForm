@@ -465,7 +465,7 @@
 
 	.cp_line{
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
-		padding-top: 55px;
+		padding-top: 63px;
 		text-align: left;
 	}
 
