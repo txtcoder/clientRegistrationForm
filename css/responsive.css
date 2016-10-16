@@ -332,6 +332,7 @@
 	.ps_group {
 		padding-top: 50px;
 		width: 900px;
+		z-index: 535;
 
 	}
 
@@ -395,6 +396,15 @@
 		position: absolute;
 		bottom: 60px;
 		right: 36%;
+	}
+
+	#previous_background{
+		background: #f6f7f7;
+		height: 100px;
+		width: 860px;
+		position: absolute;
+		margin-left: 40px;
+		z-index: 1;
 	}
 
 }

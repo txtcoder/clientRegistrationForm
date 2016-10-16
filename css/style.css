@@ -395,6 +395,8 @@
 		-ms-transform: scale(1.5);
 		-o-transform: scale(1.5);
 		padding-bottom: 5px !important;
+		z-index: 5;
+		position: relative;
 	}
 
 	.radio input[type='checkbox'] {
@@ -449,6 +451,8 @@
 		color: #6d6e70;
 		font-size: 14px;
 		text-align: center;
+		position: relative;
+		z-index: 3;
 	}
 
 	.subtitle_top{
