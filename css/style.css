@@ -102,7 +102,11 @@
 		padding-right: 30px;
 		color: white;
 	}
-
+	.form-control{
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
 	.form-actions{
 		border-top: none;
 		background: #eaeaea;
@@ -359,6 +363,12 @@
  	/* Personal Information Section 2 */
  	#pi_section2{
  		position: relative;
+ 	}
+
+ 	#pi_section2 select{
+ 		background: white;
+ 		height: 30px;
+ 		border: 1px solid #e6e7e8;
  	}
  	#pi_section2 .form-control{
  		padding-bottom: 0;
