@@ -388,7 +388,7 @@
 	[3. Health History ]
 	=========================
 */	
-	.radio input[type="checkbox"], .radio input[type="radio"] {
+	.radio input[type="checkbox"] {
 		transform: scale(1.5) !important;
 		-webkit-transform: scale(1.5) !important;
 		-moz-transform: scale(1.5);
@@ -397,7 +397,7 @@
 		padding-bottom: 5px !important;
 	}
 
-	.radio input[type='radio'] {
+	.radio input[type='checkbox'] {
 	  -webkit-appearance:none;
 	  width:15px;
 	  height:15px;
@@ -406,11 +406,11 @@
 	  outline:none;
 	}
 
-	.radio input[type='radio']:hover {
+	.radio input[type='checkbox']:hover {
 	  background:#27bcb8;
 	}
 
-	.radio input[type='radio']:checked{
+	.radio input[type='checkbox']:checked{
 	  background:#27bcb8;
 	  border:1px solid #27bcb8;
 
@@ -465,7 +465,7 @@
 
 	.cp_line{
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
-		padding-top: 55px;
+		padding-top: 63px;
 		text-align: left;
 	}
 
@@ -492,11 +492,11 @@
 	}
 
 	.subtitle_bottom{
-		padding-bottom: 33px;
+		padding-bottom: 60px;
 	}
 
 	.subtitle_bottomp{
-		padding-bottom: 33px;
+		padding-bottom: 60px;
 	}
 
 	#gyn_surgery{

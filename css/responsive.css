@@ -321,11 +321,11 @@
 
 	.cp_line2{
 		width: 900px;
-		padding-top: 65px;
+		padding-top: 103px;
 	}
 
 	.cp_line3{
-		padding-top: 55px;
+		padding-top: 63px;
 		width: 900px;
 
 	}
@@ -509,7 +509,7 @@
 
 	/* Health History Subtitle Description */
 
-	.hh_discription{
+	.hh_discription .container{
 		max-width: 600px;
 	}
 
@@ -523,14 +523,14 @@
 	.cp_line2{
 		width: 750px;
 		padding-left: 30px;
-		padding-top: 65px;
+		padding-top: 103px;
 
 	}
 
 	.cp_line3{
 		width: 750px;
 		padding-left: 30px;
-		padding-top: 75px;
+		padding-top: 80px;
 
 	}
 
@@ -585,13 +585,13 @@
 	}
 
 	.subtitle_bottom{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.subtitle_bottomp{
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.history_choice .carousel-indicators {
@@ -741,7 +741,7 @@
 
 	/* Health History Subtitle Description */
 
-	.hh_discription{
+	.hh_discription .container{
 		max-width: 600px;
 	}
 
@@ -754,12 +754,12 @@
 
 	.cp_line2{
 		width: 700px;
-		padding-top: 65px;
+		padding-top: 103px;
 	}
 
 	.cp_line3{
 		width: 700px;
-		padding-top: 75px;
+		padding-top: 80px;
 	}
 
 	#gyn_surgery{
@@ -813,11 +813,11 @@
 	}
 
 	.subtitle_bottom{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.subtitle_bottomp{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
