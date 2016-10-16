@@ -30,14 +30,15 @@
                   <div class="col-sm-3 pi2_padding">
                     <div class="form-group">
                       <label for="Type">Type:</label>
-                      <input type="text" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
+                      <input ng-model="surgery-type" type="text" class="form-control form_with" id="height" placeholder="surgery type">
                     </div>
                   </div>
                   <!-- Height -->
                   <div class="col-sm-3 pi2_padding">
                     <div class="form-group">
                       <label for="Date">Date</label>
-                      <input type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+
+                      <input ng-model="surgery_date" type="date" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
                     </div>
                   </div>
 
@@ -46,7 +47,7 @@
 
               <li class="pi2_padding">
                 <label for="Height">Current Symptoms:</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+                <textarea ng-model="surgery_current_symptoms" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
               </li>
 
               <li>
@@ -77,14 +78,14 @@
                   <div class="col-sm-3 pi2_padding">
                     <div class="form-group">
                       <label for="type">Type:</label>
-                      <input type="text" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
+                      <input ng-model="injury_type" type="text" class="form-control form_with" id="birth_date" placeholder="injury type">
                     </div>
                   </div>
                   <!-- Height -->
                   <div class="col-sm-3 pi2_padding">
                     <div class="form-group">
                       <label for="date">Date</label>
-                      <input type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+                      <input ng-model="injury_date" type="text" class="form-control form_with" id="height" placeholder="YYYY/MM/DD">
                     </div>
                   </div>
 
@@ -93,7 +94,7 @@
 
               <li class="pi2_padding">
                 <label for="Height">Current Symptoms:</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+                <textarea ng-model="injury_current_symptoms" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
               </li>
 
               <li>
@@ -118,7 +119,7 @@
 
               <li>
                 <label for="other_medical">Other Medical Conditions</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+                <textarea ng-model="other-medical_conditions" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
               </li>
             </ul>
 
@@ -136,7 +137,7 @@
 
               <li>
                 <label for="special_note">Of Special Note <i>( pins, wires, artifical joints or limbs, special equpiment suc as wheelchairs, walker, cane, etc. )</i></label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
+                <textarea ng-model="of_special_note" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Current Symptoms Here"></textarea>
               </li>
 
             </ul>
@@ -161,14 +162,14 @@
                   <div class="col-sm-4 pi2_padding">
                     <div class="form-group">
                       <label for="Name">Name</label>
-                      <input type="text" class="form-control form_with" id="physician_name" placeholder="Enter Physician's Name Here">
+                      <input ng-model="physician_name" type="text" class="form-control form_with" id="physician_name" placeholder="Enter Physician's Name Here">
                     </div>
                   </div>
                   <!-- Physician phone number -->
                   <div class="col-sm-4 pi2_padding">
                     <div class="form-group">
                       <label for="phone_number">Phone Number</label>
-                      <input type="text" class="form-control form_with" id="physician_number" placeholder="Enter Phone Number Here">
+                      <input ng-model="physician_phone" type="text" class="form-control form_with" id="physician_number" placeholder="Enter Phone Number Here">
                     </div>
                   </div>
 
@@ -181,14 +182,14 @@
                   <div class="col-sm-4 pi2_padding">
                     <div class="form-group">
                       <label for="address">Address</label>
-                      <input type="text" class="form-control form_with" id="physician_address" placeholder="Enter Physician's Address Here">
+                      <input ng-model="physician_address" type="text" class="form-control form_with" id="physician_address" placeholder="Enter Physician's Address Here">
                     </div>
                   </div>
                   <!-- Last Visit Date -->
                   <div class="col-sm-4 pi2_padding">
                     <div class="form-group">
                       <label for="date_visit">Date of Last Visit</label>
-                      <input type="text" class="form-control form_with" id="physician_lastvisit" placeholder="YYYY/MM/DD">
+                      <input ng-model="physician_last_visit_date" type="text" class="form-control form_with" id="physician_lastvisit" placeholder="YYYY/MM/DD">
                     </div>
                   </div>
 
@@ -216,37 +217,37 @@
             <div class="row">
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                  <input type="radio" id="inlineCheckbox1" name="contact" value="chiropractic"> Chiropractic
+                  <input ng-model="involvement_in_chiropractic" type="checkbox" id="inlineCheckbox1" name="contact" > Chiropractic
                   </label>
                 </div>
 
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                    <input type="radio" id="inlineCheckbox2" name="contact" value="physiotherapy"> Physiotherapy
+                    <input ng-model="involvement_in_physiotherapy" type="checkbox" id="inlineCheckbox2" name="contact"> Physiotherapy
                   </label>
                 </div>
 
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                    <input type="radio" id="inlineCheckbox3" name="contact" value="massage"> Massage Therapy
+                    <input ng-model="involvement_in_massage_therapy" type="checkbox" id="inlineCheckbox3" name="contact"> Massage Therapy
                   </label>
                 </div>
 
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                      <input type="radio" id="inlineCheckbox4" name="contact" value="psychotherapy"> Psychotherapy
+                      <input ng-model="involvement_in_psychotherapy" type="checkbox" id="inlineCheckbox4" name="contact"> Psychotherapy
                   </label>
                 </div>
 
                 <div class="col-sm-6">
                   <label class="radio-inline checkbox-circle">
-                      <input type="radio" id="inlineCheckbox4" name="contact" value="tcm"> TCM (Acupuncture or Herbals)
+                      <input ng-model="involvement_in_tcm" type="checkbox" id="inlineCheckbox4" name="contact"> TCM (Acupuncture or Herbals)
                   </label>
                 </div>
 
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                      <input type="radio" id="inlineCheckbox4" name="contact" value="other"> Others
+                      <input ng-model="involvement_in_others" type="checkbox" id="inlineCheckbox4" name="contact"> Others
                   </label>
                 </div>
 
@@ -254,7 +255,7 @@
               </li>
 
               <li>
-              <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="If selected Others please list in this box"></textarea>
+              <textarea ng-model="involvement_in_others_text" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="If selected Others please list in this box"></textarea>
               </li>
 
 
@@ -278,13 +279,13 @@
                   <div class="col-sm-3 pi2_padding">
                     <div class="form-group">
                       <label for="medication_name">Name</label>
-                      <input type="text" class="form-control form_with" id="medication_name" placeholder="Enter Your Medication Here">
+                      <input ng-model="medication_name" type="text" class="form-control form_with" id="medication_name" placeholder="Enter Your Medication Here">
                     </div>
                   </div>
 
               <li class="pi2_padding">
                 <label for="Height">For What Condition?</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Condition Here"></textarea>
+                <textarea ng-model="medication_condition" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Condition Here"></textarea>
               </li>
 
               <li>
@@ -311,16 +312,15 @@
             <div class="row">
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                  <input type="radio" id="inlineCheckbox1" name="contact" value="chiropractic"> Chemical Therapy
+                  <input ng-model="chemical_therapy" type="checkbox" id="inlineCheckbox1" name="contact"> Chemical Therapy
                   </label>
                 </div>
 
                 <div class="col-sm-3">
                   <label class="radio-inline checkbox-circle">
-                    <input type="radio" id="inlineCheckbox2" name="contact" value="physiotherapy"> Radiotherapy
+                    <input ng-model="radiotherapy" type="checkbox" id="inlineCheckbox2" name="contact"> Radiotherapy
                   </label>
                 </div>
-
               </div>
             </li>
 
@@ -338,7 +338,7 @@
 
               <li>
                 <label for="supplements">Supplements:</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Supplements Here"></textarea>
+                <textarea ng-model="supplements" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Supplements Here"></textarea>
               </li>
 
               <li>
@@ -363,7 +363,7 @@
 
               <li>
                 <label for="herbal">Chinese Herbals:</label>
-                <textarea class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Chinese Herbals Here"></textarea>
+                <textarea  ng-model="chinese_herbals" class="form-control" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden" placeholder="Enter Chinese Herbals Here"></textarea>
               </li>
 
               <li>
