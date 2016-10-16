@@ -4,8 +4,9 @@
 angular.module('Registration')
 .controller('HealthHistoryControllerII', HealthHistoryControllerII);
 
-HealthHistoryControllerII.$inject =[];
-function HealthHistoryControllerII() {
+HealthHistoryControllerII.$inject =['RegistrationService','$location'];
+function HealthHistoryControllerII(RegistrationService,$location) {
+
 
 }
 

@@ -11,7 +11,6 @@ function PersonalInfoController(RegistrationService, $location) {
   this.weight_type="kg";
 
   this.saveInfo=function(){
-    console.log("hi");
     var obj ={};
     obj.name=this.name;
     obj.occupation=this.occupation;
