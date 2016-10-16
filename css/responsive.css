@@ -741,7 +741,7 @@
 
 	/* Health History Subtitle Description */
 
-	.hh_discription{
+	.hh_discription .container{
 		max-width: 600px;
 	}
 
