@@ -23,12 +23,12 @@
           <div class="col-sm-6" id="section1_margin">
             <div class="form-group">
               <label for="Name">Name</label>
-              <input ng-model="name" type="text" class="form-control" id="name" placeholder="First & Last Name">
+              <input ng-model="personalInfo.name" type="text" class="form-control" id="name" placeholder="First & Last Name">
             </div>
 
             <div class="form-group">
               <label for="Occupation">Occupation</label>
-              <input ng-model="occupation" type="text" class="form-control" id="occupation" placeholder="Please Provide Us your Occupation">
+              <input ng-model="personalInfo.occupation" type="text" class="form-control" id="occupation" placeholder="Please Provide Us your Occupation">
             </div>
 
           </div>
@@ -46,7 +46,7 @@
             <div class="form-group">
               <label for="Date of Birth">Date of Birth</label>
 
-              <input ng-model="birth_date" type="date" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
+              <input ng-model="personalInfo.birth_date" type="date" class="form-control form_with" id="birth_date" placeholder="YYYY/MM/DD">
             </div>
           </div>
 
@@ -54,9 +54,9 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="Height">Height</label>
-              <input ng-model="height" type="text" class="form-control form_with" id="height" placeholder="cm/ft">
-              <select ng-model="height_type">
-                <option value="cm" selected="selected">cm</option>
+              <input ng-model="personalInfo.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+              <select ng-model="personalInfo.height_type">
+                <option value="cm">cm</option>
                 <option value="foot">foot</option>
               </select>
             </div>
@@ -66,9 +66,9 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="Weight">Weight</label>
-              <input ng-model="weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg">
-              <select ng-model="weight_type">
-                <option value="kg" selected="selected">kg</option>
+              <input ng-model="personalInfo.weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg">
+              <select ng-model="personalInfo.weight_type">
+                <option value="kg">kg</option>
                 <option value="lb">lb</option>
               </select>
             </div>
@@ -77,14 +77,14 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="Address">Address</label>
-              <input ng-model="address" type="text" class="form-control form_with" id="address" placeholder="House/apt # and street">
+              <input ng-model="personalInfo.address" type="text" class="form-control form_with" id="address" placeholder="House/apt # and street">
             </div>
           </div>
         <!-- Postal Code -->
-          <div class="col-sm-4 col-sm-offset-5 pi2_padding">
+          <div class="col-sm-4 cpi2_padding">
             <div class="form-group">
               <label for="Postal Code">Postal Code</label>
-              <input ng-model="postal_code" type="text" class="form-control form_with" id="postal_code" placeholder="Enter Postal Code Here">
+              <input ng-model="personalInfo.postal_code" type="text" class="form-control form_with" id="postal_code" placeholder="Enter Postal Code Here">
             </div>
           </div>
 
@@ -95,7 +95,7 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="City">City</label>
-              <input ng-model="city" type="text" class="form-control form_with" id="city" placeholder="Enter Your City Here">
+              <input ng-model="personalInfo.city" type="text" class="form-control form_with" id="city" placeholder="Enter Your City Here">
             </div>
           </div>
 
@@ -114,7 +114,7 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="Home Phone">Home Phone</label>
-              <input ng-model="home_phone" type="text" class="form-control form_with" id="home_phone" placeholder="Enter Home Number Here">
+              <input ng-model="personalInfo.home_phone" type="text" class="form-control form_with" id="home_phone" placeholder="Enter Home Number Here">
             </div>
           </div>
 
@@ -122,7 +122,7 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="">Cell</label>
-              <input ng-model="cell_phone" type="text" class="form-control form_with" id="cell" placeholder="Enter Cell Number Here">
+              <input ng-model="personalInfo.cell_phone" type="text" class="form-control form_with" id="cell" placeholder="Enter Cell Number Here">
             </div>
           </div>
 
@@ -130,7 +130,7 @@
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
               <label for="">( Work )</label>
-              <input ng-model="work_phone" type="text" class="form-control form_with" id="work" placeholder="Enter Work Number Here">
+              <input ng-model="personalInfo.work_phone" type="text" class="form-control form_with" id="work" placeholder="Enter Work Number Here">
             </div>
           </div>
 
@@ -138,7 +138,7 @@
           <div class="col-sm-8 pi2_padding">
             <div class="form-group">
               <label for="">Email</label>
-              <input ng-model="email" type="text" class="form-control" id="email" placeholder="Enter Your Email Here">
+              <input ng-model="personalInfo.email" type="text" class="form-control" id="email" placeholder="Enter Your Email Here">
             </div>
           </div>
 
@@ -151,25 +151,25 @@
               <div class="row">
                 <div class="col-sm-3">
                 <label class="radio-inline checkbox-circle">
-                <input type="radio" id="inlineCheckbox1" name="contact" ng-model="preferred_contact" ng-value="homePhone"> Home Phone
+                <input type="radio" id="inlineCheckbox1" name="contact" ng-model="personalInfo.preferred_contact" ng-value="homePhone"> Home Phone
                 </label>
                 </div>
 
                 <div class="col-sm-3">
                 <label class="radio-inline checkbox-circle">
-                  <input type="radio" id="inlineCheckbox2" name="contact" ng-model="preferred_contact" ng-value="cellPhone"> Cell Phone
+                  <input type="radio" id="inlineCheckbox2" name="contact" ng-model="personalInfo.preferred_contact" ng-value="cellPhone"> Cell Phone
                 </label>
                 </div>
 
                 <div class="col-sm-3">
                 <label class="radio-inline checkbox-circle">
-                  <input type="radio" id="inlineCheckbox3" name="contact" ng-model="preferred_contact" ng-value="textMessage"> Text Message
+                  <input type="radio" id="inlineCheckbox3" name="contact" ng-model="personalInfo.preferred_contact" ng-value="textMessage"> Text Message
                 </label>
                 </div>
 
                 <div class="col-sm-3">
                 <label class="radio-inline checkbox-circle">
-                    <input type="radio" id="inlineCheckbox4" name="contact" ng-model="preferred_contact" ng-value="email"> Email
+                    <input type="radio" id="inlineCheckbox4" name="contact" ng-model="personalInfo.preferred_contact" ng-value="email"> Email
                 </label>
                 </div>
 
@@ -182,7 +182,7 @@
           <div class="col-sm-8 pi2_padding">
             <div class="form-group">
               <label for="referal">Where did you first hear about us?</label>
-              <input ng-model="referral" type="text" class="form-control" id="referral" placeholder="Please enter info here">
+              <input ng-model="personalInfo.referral" type="text" class="form-control" id="referral" placeholder="Please enter info here">
             </div>
           </div>
         </div>
@@ -196,7 +196,7 @@
               </ol>
         </div>
 
-        <button ui-sref="health_history" type="submit" class="btn btn-default next_btn pi_btn">Next</button>
+        <button ng-click="personalInfo.saveInfo()" type="submit" class="btn btn-default next_btn pi_btn">Next</button>
 
       </div>
     </div>

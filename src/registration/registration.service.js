@@ -6,7 +6,11 @@ angular.module('Registration')
 
 RegistrationService.$inject= [];
 function RegistrationService() {
-
+  var obj = [];
+  this.updatePersonalInfo = function(object){
+    console.log(object);
+    obj.push(object);
+  };
 }
 
 })();
