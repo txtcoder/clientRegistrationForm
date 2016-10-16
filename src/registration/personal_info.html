@@ -53,24 +53,36 @@
         <!-- Height -->
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
-              <label for="Height">Height</label>
-              <input ng-model="personalInfo.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft">
-              <select ng-model="personalInfo.height_type">
-                <option value="cm">cm</option>
-                <option value="foot">foot</option>
-              </select>
+            <ul class="list-inline">
+              <li>
+                <label for="Height">Height</label>
+                <input ng-model="personalInfo.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft">
+              </li>
+              <li>
+                <select ng-model="personalInfo.height_type">
+                  <option value="cm">cm</option>
+                  <option value="foot">foot</option>
+                </select>
+              </li>
+            </ul>
             </div>
           </div>
 
         <!-- Weight -->
           <div class="col-sm-4 pi2_padding">
             <div class="form-group">
+            <ul class="list-inline">
+              <li>
               <label for="Weight">Weight</label>
               <input ng-model="personalInfo.weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg">
+              </li>
+              <li>
               <select ng-model="personalInfo.weight_type">
                 <option value="kg">kg</option>
                 <option value="lb">lb</option>
               </select>
+              </li>
+            </ul>
             </div>
           </div>
         <!-- Address -->
