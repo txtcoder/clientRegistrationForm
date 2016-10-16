@@ -575,6 +575,10 @@
 		padding-bottom: 5px;
 	}
 
+	.mj_gap{
+		padding-bottom: 18px; 
+	}
+
 	.ps_group {
 		position: absolute;
 		text-align: left;
