@@ -102,7 +102,11 @@
 		padding-right: 30px;
 		color: white;
 	}
-
+	.form-control{
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
 	.form-actions{
 		border-top: none;
 		background: #eaeaea;
