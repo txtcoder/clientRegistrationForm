@@ -470,6 +470,10 @@
  	#pi_section2 .form_with{
  		max-width: 250px;
  	}
+
+ 	#pi_section2 .form_with_tb{
+ 		max-width: 70px;
+ 	}
  	#pi_section2 .carousel-indicators {
 	    position: absolute;
 	    left: 44%;
