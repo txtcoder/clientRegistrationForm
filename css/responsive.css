@@ -163,13 +163,6 @@
 		text-align: left;
 	}
 
-	.mj_gap{
-		padding-bottom: 60px;
-	}
-
-	.mj_gap2{
-		padding-bottom: 65px;
-	}
 
 	.subtitle_toptb{
 		padding-top: 20px;
@@ -358,14 +351,6 @@
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
 		padding-top: 165px;
 		text-align: left;
-	}
-
-	.mj_gap{
-		padding-bottom: 60px;
-	}
-
-	.mj_gap2{
-		padding-bottom: 65px;
 	}
 
 	.subtitle_toptb{
@@ -564,13 +549,6 @@
 		width: 750px;
 	}
 
-	.mj_gap{
-		padding-bottom: 60px;
-	}
-
-	.mj_gap2{
-		padding-bottom: 65px;
-	}
 
 	.subtitle_toptb{
 		padding-top: 0;
@@ -792,14 +770,6 @@
 		text-align: left;
 	}
 	
-	.mj_gap{
-		padding-bottom: 60px;
-	}
-
-	.mj_gap2{
-		padding-bottom: 65px;
-	}
-
 	.subtitle_toptb{
 		padding-top: 0;
 	}
