@@ -523,7 +523,7 @@
 	.cp_line2{
 		width: 750px;
 		padding-left: 30px;
-		padding-top: 65px;
+		padding-top: 103px;
 
 	}
 
@@ -585,13 +585,13 @@
 	}
 
 	.subtitle_bottom{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.subtitle_bottomp{
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.history_choice .carousel-indicators {
@@ -754,7 +754,7 @@
 
 	.cp_line2{
 		width: 700px;
-		padding-top: 65px;
+		padding-top: 103px;
 	}
 
 	.cp_line3{
@@ -813,11 +813,11 @@
 	}
 
 	.subtitle_bottom{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 	}
 
 	.subtitle_bottomp{
-		padding-bottom: 13px;
+		padding-bottom: 40px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
