@@ -451,8 +451,18 @@
 	}
 
 	.main_caption{
-		text-align: center;
-		padding-bottom: 20px;
+		text-align: left;
+		padding-bottom: 45px;
+		padding-left: 40px;
+	}
+
+	.main_caption h5{
+		font-size: 17px;
+		font-weight: 700;
+		color: #a7a9ab;
+		border-bottom: 1.5px solid #d1d2d4;
+		width: 120px;
+		padding-bottom: 10px;
 	}
 
 	.subtitle{
