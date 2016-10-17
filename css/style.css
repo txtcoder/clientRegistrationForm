@@ -395,7 +395,7 @@
 		-ms-transform: scale(1.5);
 		-o-transform: scale(1.5);
 		padding-bottom: 5px !important;
-		z-index: 5;
+		z-index: 99999;
 		position: relative;
 	}
 
@@ -423,7 +423,7 @@
 	}
 
 	.hh_gap {
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 	}
 	/* Health History Subtitle Description */
 
@@ -439,7 +439,7 @@
 	.history_choice{
 		text-align: center;
 		position: relative;
-		padding-bottom: 100px;
+		padding-bottom: 230px;
 	}
 
 	.main_caption{
@@ -471,10 +471,8 @@
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
 		padding-top: 63px;
 		text-align: left;
-	}
-
-	.cp_line>.top_border {
-		border-top: 1px solid #e6e7e8;
+		z-index: 333;
+		font-weight: 900; 
 	}
 
 	.cp_line>li>p{
@@ -489,6 +487,7 @@
 
 	.hhrow_leftpadding{
 		padding-left: 100px;
+		position: relative;
 	}  
 
 	.hcol_marign{
@@ -537,10 +536,7 @@
 	.cp_line2{
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
 		text-align: left;
-	}
-
-	.cp_line2>.top_border {
-		border-top: 1px solid #e6e7e8;
+		z-index: 333;
 	}
 
 	.cp_line2>li>p{
@@ -548,6 +544,7 @@
 		margin-bottom: 0;
 		color: #6d6e70;
 		font-size: 14px;
+		font-weight: 900;
 	}
 	.cp_line2>.top_border>p{
 		padding-top: 5px;
@@ -556,10 +553,7 @@
 	.cp_line3{
 		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
 		text-align: left;
-	}
-
-	.cp_line3>.top_border {
-		border-top: 1px solid #e6e7e8;
+		z-index: 333;
 	}
 
 	.cp_line3>li>p{
@@ -567,6 +561,7 @@
 		margin-bottom: 0;
 		color: #6d6e70;
 		font-size: 14px;
+		font-weight: 900;
 	}
 	.cp_line3>.top_border>p{
 		padding-top: 5px;
@@ -596,10 +591,7 @@
 		color: #6d6e70;
 	}
 
-	.ps_group>.top_border{
-		border-top: 1px solid #e6e7e8;
-	}
-
+	
 	.ps_group>.top_border>p{
 		padding-top: 15px;
 	}
@@ -668,6 +660,90 @@
 		padding-top: 5px;
 	}
 
+	/* Condition Background */
+
+	#previous_condition_background{
+		background: #f6f7f7;
+		opacity: 0.3;
+		position: absolute;
+		margin-left: -45px;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+	/* Infection Background */
+
+	#previous_infection_background{
+		background: #f6f7f7;
+		opacity: 0.3;
+		position: absolute;
+		margin-left: -45px;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+	/* Women Background */
+
+	#previous_women_background{
+		background: #f6f7f7;
+		opacity: 0.3;
+		position: absolute;
+		margin-left: -45px;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+
+	/* skin Background */
+
+	#previous_skin_background{
+		background: #f6f7f7;
+		opacity: 0.3;
+		position: absolute;
+		margin-left: -45px;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+	/* Muscle & Joints Background */
+
+	#previous_mj_background{
+		background: #f6f7f7;
+		opacity: 0.3;
+		position: absolute;
+		margin-left: -45px;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+	.mj_cp_group{
+		position: absolute;
+		text-align: left;
+		z-index: 5555;
+	}
+	.mj_cp_group_gap{
+		padding-bottom: 210px;
+	}
+
+	.mj_cp_group p{
+		font-weight: 900;
+		color: #6d6e70;
+	}
 /* 
 	=========================
 	[3. Health History Party II]

@@ -398,13 +398,40 @@
 		right: 36%;
 	}
 
-	#previous_background{
-		background: #f6f7f7;
-		height: 100px;
-		width: 860px;
-		position: absolute;
-		margin-left: 40px;
-		z-index: 1;
+	/* Condition Background */
+	#previous_condition_background{
+		height: 80px;
+		width: 100%;
+		margin-top: 88px;
+	}
+
+	/* Infection Background */
+	#previous_infection_background{
+		height: 80px;
+		width: 100%;
+		margin-top: 88px;
+	}
+
+
+	/* Women Background */
+	#previous_women_background{
+		height: 80px;
+		width: 100%;
+		margin-top: 129px;
+	}
+
+	/* Skin Background */
+	#previous_skin_background{
+		height: 80px;
+		width: 100%;
+		margin-top: 88px;
+	}
+
+	/* Muscle & Joints Background */
+	#previous_mj_background{
+		height: 155px;
+		width: 100%;
+		margin-top: 133px;
 	}
 
 }
