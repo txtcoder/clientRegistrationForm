@@ -409,7 +409,7 @@
 	}
 
 	.radio input[type='checkbox']:hover {
-	  background:#27bcb8;
+	  border: 4px solid #27bcb8;
 	}
 
 	.radio input[type='checkbox']:checked{
