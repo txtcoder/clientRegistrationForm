@@ -387,7 +387,10 @@
 	=========================
 	[3. Health History ]
 	=========================
-*/	
+*/	.history_choice .checkbox label, .radio label{
+		padding-left: 0;
+	}
+	
 	.radio input[type="checkbox"] {
 		transform: scale(1.5) !important;
 		-webkit-transform: scale(1.5) !important;
@@ -397,6 +400,7 @@
 		padding-bottom: 5px !important;
 		z-index: 99999;
 		position: relative;
+
 	}
 
 	.radio input[type='checkbox'] {
