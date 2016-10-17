@@ -425,6 +425,10 @@
 	.hh_gap {
 		padding-bottom: 100px;
 	}
+
+	.hh_gap_extra{
+		padding-bottom: 150px;
+	}
 	/* Health History Subtitle Description */
 
 	.hh_discription{
@@ -661,6 +665,23 @@
 		padding-top: 5px;
 	}
 
+	/* Cardio Background */
+
+	#previous_cardio_background{
+		background: -moz-linear-gradient(left, rgba(246,247,247,0) 0%, rgba(246,247,247,0.71) 8%, rgba(246,247,247,0.75) 9%, rgba(246,247,247,1) 16%, rgba(246,247,247,1) 86%, rgba(246,247,247,0.71) 92%, rgba(246,247,247,0.62) 93%, rgba(246,247,247,0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(246,247,247,0) 0%,rgba(246,247,247,0.71) 8%,rgba(246,247,247,0.75) 9%,rgba(246,247,247,1) 16%,rgba(246,247,247,1) 86%,rgba(246,247,247,0.71) 92%,rgba(246,247,247,0.62) 93%,rgba(246,247,247,0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(246,247,247,0) 0%,rgba(246,247,247,0.71) 8%,rgba(246,247,247,0.75) 9%,rgba(246,247,247,1) 16%,rgba(246,247,247,1) 86%,rgba(246,247,247,0.71) 92%,rgba(246,247,247,0.62) 93%,rgba(246,247,247,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f6f7f7', endColorstr='#00f6f7f7',GradientType=1 ); /* IE6-9 */
+		opacity: 0.3;
+		position: absolute;
+		z-index: 1;
+
+		-moz-box-shadow:    inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+        box-shadow:         inset 0 20px 20px -20px rgba(0, 0, 0, 0.6);
+	}
+
+
 	/* Condition Background */
 
 	#previous_condition_background{
@@ -754,6 +775,27 @@
 		font-weight: 900;
 		color: #6d6e70;
 	}
+
+	/* Right And Left Section */
+	.rl_cp_group{
+		position: absolute;
+		margin-top: -40px;
+
+
+	}
+
+	.rl_cp_group #rl_cp_left{
+		border-right: 2px solid #e6e7e8;
+	}
+
+
+	.rl_cp_group p{
+		font-weight: 900;
+		color: #6d6e70;
+
+	}
+
+
 /* 
 	=========================
 	[3. Health History Party II]

@@ -255,7 +255,7 @@
           <h5>Cardiovascular</h5>
         </div>
 
-                <div id="previous_condition_background"></div>
+                <div id="previous_cardio_background"></div>
 
           <ul class="cp_line3">
             <li><p>Current</p></li>
@@ -901,12 +901,12 @@
         </div>
         <!--Skin Section End -->
 
-        <!-- Muscle & Joints Start -->
-      <div class="main_caption">
+        <!-- Muscle & JointStart -->
+        <div class="main_caption">
           <h5>Muscle & Joints</h5>
         </div>
-                <div id="previous_mj_background">
-        </div>
+
+        <div id="previous_mj_background"></div>
 
         <ul class="mj_cp_group">
          <li class="mj_cp_group_gap"><p>Current</p></li>
@@ -922,7 +922,7 @@
         </ul>
 
 
-        <div class="row hhrow_leftpadding">
+        <div class="row hhrow_leftpadding hh_gap_extra">
         <!-- Radios Starts -->
           <div class="col-sm-12">
 
@@ -1130,7 +1130,360 @@
 
           </div>
         </div>
-        <!-- Muscle & Joints End -->
+        <!-- Muscle & Joint End -->
+
+        <!-- Left & Right Start -->
+ 
+        <div id="previous_mj_background"></div>
+
+        <ul class="mj_cp_group">
+         <li class="mj_cp_group_gap"><p>Current</p></li>
+         <li><p>Previous</p></li>
+        </ul>
+
+
+        <ul class="list-inline rl_cp_group">
+          <li id="rl_cp_left"><p>Left</p></li>
+          <li id="rl_cp_right"><p>Right</p></li>
+        </ul>
+
+        <ul class="ps_group">
+          <li><p>Pain</p></li>
+          <li><p>Stiff</p></li>
+          <li class="top_border"><p>Pain</p></li>
+          <li><p>Stiff</p></li>
+
+        </ul>
+
+
+        <div class="row hhrow_leftpadding hh_gap">
+        <!-- Radios Starts -->
+          <div class="col-sm-12">
+
+          <!-- left Leg Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Leg</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_left_leg" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_left_leg" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_left_leg" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_left_leg" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Left Leg Section End -->
+
+          <!-- Left Hip Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Hip</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_left_hip" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_left_hip" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_left_hip" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_left_hip" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Left Hip Section End -->
+
+          <!-- Left Knee Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Knee</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_left_knee" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_left_knee" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_left_knee" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_left_knee" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Left Knee Section End -->
+
+          <!-- Left Foot Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Foot</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_left_foot" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.currrent_stiff_left_foot" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_left_foot" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_left_foot" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Left Foot Section End -->
+
+          <!-- Right Foot Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Foot</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_right_foot" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap"> 
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_right_foot" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_right_foot" type="checkbox" name="blankRadio3" id="blankRadio3" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_right_foot" type="checkbox" name="blankRadio3" id="blankRadio3"  aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Right Foot Section End -->
+
+          <!-- Right Knee Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Knee</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_right_knee" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_right_knee" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_right_knee" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_right_knee" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Right Knee Section End -->
+
+          <!-- Right Hip Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Hip</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_right_hip" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_right_hip" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_right_hip" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_right_hip" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Right Hip Section End -->
+
+          <!-- Right Leg Section Start -->
+            <div class="col-sm-1 hcol_marign paddingrl_none">
+              <ul class="left_padding_no">
+                <li><p class="subtitle subtitle_top">Leg</p></li>
+                <li>
+                    <div class="radio mj_padding">
+                      <label>
+                        <input ng-model="healthHistory.current_pain_right_leg" type="checkbox" name="blankRadio" id="blankRadio1" aria-label="...">
+                      </label>
+                    </div>
+                </li>
+
+                <li class="mj_gap">
+                  <div class="radio">
+                    <label>
+                      <input ng-model="healthHistory.current_stiff_right_leg" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_pain_right_leg" type="checkbox" name="blankRadio2" id="blankRadio2" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="radio mj_padding">
+                    <label>
+                      <input ng-model="healthHistory.previous_stiff_right_leg" type="checkbox" name="blankRadio" id="blankRadio" aria-label="...">
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          <!-- Left Leg Section End -->
+
+
+          </div>
+        </div>
+        <!-- Left & Right End -->
 
         <!-- Radios Ends -->
 

@@ -202,6 +202,68 @@
 		right: 36%;
 	}
 
+	/* Condition Background */
+	#previous_cardio_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 88px;
+	}
+
+	/* Condition Background */
+	#previous_condition_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 88px;
+	}
+
+	/* Infection Background */
+	#previous_infection_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 88px;
+	}
+
+
+	/* Women Background */
+	#previous_women_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 129px;
+	}
+
+	/* Skin Background */
+	#previous_skin_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 88px;
+	}
+
+	/* Muscle & Joints Background */
+	#previous_mj_background{
+		height: 155px;
+		width: 900px;
+		margin-top: 133px;
+	}
+
+
+	/* Right And Left Section */
+	.rl_cp_group{
+		padding-left: 420px;
+	}
+
+	.rl_cp_group #rl_cp_left{
+		padding-right: 10px;
+		height: 360px;
+	}
+
+	.rl_cp_group #rl_cp_right p{
+		padding-left: 15px;
+	}
+
+	.rl_cp_group #rl_cp_left p{
+		padding-right: 15px;
+	}
+
 }
 
 @media screen and (min-width:992px) and (max-width:1440px){
@@ -399,6 +461,13 @@
 	}
 
 	/* Condition Background */
+	#previous_cardio_background{
+		height: 80px;
+		width: 900px;
+		margin-top: 88px;
+	}
+
+	/* Condition Background */
 	#previous_condition_background{
 		height: 80px;
 		width: 900px;
@@ -432,6 +501,25 @@
 		height: 155px;
 		width: 900px;
 		margin-top: 133px;
+	}
+
+
+	/* Right And Left Section */
+	.rl_cp_group{
+		padding-left: 420px;
+	}
+
+	.rl_cp_group #rl_cp_left{
+		padding-right: 10px;
+		height: 360px;
+	}
+
+	.rl_cp_group #rl_cp_right p{
+		padding-left: 15px;
+	}
+
+	.rl_cp_group #rl_cp_left p{
+		padding-right: 15px;
 	}
 
 }
@@ -654,6 +742,68 @@
 		bottom: 60px;
 		right: 36%;
 	}
+
+	/* Condition Background */
+	#previous_cardio_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 105px;
+	}
+
+	/* Condition Background */
+	#previous_condition_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+	/* Infection Background */
+	#previous_infection_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+
+	/* Women Background */
+	#previous_women_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 129px;
+	}
+
+	/* Skin Background */
+	#previous_skin_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+	/* Muscle & Joints Background */
+	#previous_mj_background{
+		height: 155px;
+		width: 700px;
+		margin-top: 133px;
+	}
+
+	/* Right And Left Section */
+	.rl_cp_group{
+		padding-left: 350px;
+	}
+
+	.rl_cp_group #rl_cp_left{
+		padding-right: 10px;
+		height: 360px;
+	}
+
+	.rl_cp_group #rl_cp_right p{
+		padding-left: 15px;
+	}
+
+	.rl_cp_group #rl_cp_left p{
+		padding-right: 15px;
+	}
+
 
 }
 
@@ -879,6 +1029,67 @@
 		position: absolute;
 		bottom: 60px;
 		right: 36%;
+	}
+
+	/* Condition Background */
+	#previous_cardio_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 105px;
+	}
+
+	/* Condition Background */
+	#previous_condition_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+	/* Infection Background */
+	#previous_infection_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+
+	/* Women Background */
+	#previous_women_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 129px;
+	}
+
+	/* Skin Background */
+	#previous_skin_background{
+		height: 80px;
+		width: 700px;
+		margin-top: 88px;
+	}
+
+	/* Muscle & Joints Background */
+	#previous_mj_background{
+		height: 155px;
+		width: 700px;
+		margin-top: 133px;
+	}
+
+	/* Right And Left Section */
+	.rl_cp_group{
+		padding-left: 350px;
+	}
+
+	.rl_cp_group #rl_cp_left{
+		padding-right: 10px;
+		height: 360px;
+	}
+
+	.rl_cp_group #rl_cp_right p{
+		padding-left: 15px;
+	}
+
+	.rl_cp_group #rl_cp_left p{
+		padding-right: 15px;
 	}
 
 }
