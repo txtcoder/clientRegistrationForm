@@ -401,14 +401,14 @@
 	/* Condition Background */
 	#previous_condition_background{
 		height: 80px;
-		width: 100%;
+		width: 900px;
 		margin-top: 88px;
 	}
 
 	/* Infection Background */
 	#previous_infection_background{
 		height: 80px;
-		width: 100%;
+		width: 900px;
 		margin-top: 88px;
 	}
 
@@ -416,21 +416,21 @@
 	/* Women Background */
 	#previous_women_background{
 		height: 80px;
-		width: 100%;
+		width: 900px;
 		margin-top: 129px;
 	}
 
 	/* Skin Background */
 	#previous_skin_background{
 		height: 80px;
-		width: 100%;
+		width: 900px;
 		margin-top: 88px;
 	}
 
 	/* Muscle & Joints Background */
 	#previous_mj_background{
 		height: 155px;
-		width: 100%;
+		width: 900px;
 		margin-top: 133px;
 	}
 
