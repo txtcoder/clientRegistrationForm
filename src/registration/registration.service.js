@@ -27,7 +27,7 @@ function RegistrationService($http) {
     var health = {};
     for (var attrname in healthHistory[0]) { health[attrname] = healthHistory[0][attrname]; }
     for (var attrname in healthHistoryII[0]) { health[attrname] = healthHistoryII[0][attrname]; }
-    var obj = JSON.stringify({tcm_basic_contact: personalInfo[0], tcm_patient_info: health})
+    var obj = JSON.stringify({contact: {tcm_basic_contact: personalInfo[0], tcm_patient_info: health}})
 
 
     $http.post("https://salty-journey-18993.herokuapp.com/contacts", obj)
@@ -36,6 +36,7 @@ function RegistrationService($http) {
     }).error(function(data,status,headers,config){
       console.log(data);
     });
+
   }
 }
 
