@@ -6,9 +6,7 @@ angular.module('Registration')
 
 HealthHistoryControllerII.$inject =['RegistrationService','$location'];
 function HealthHistoryControllerII(RegistrationService,$location) {
-  console.log("wt");
    this.saveHealthHistoryII = function () {
-     console.log("hi");
      obj={};
 
      obj.surgery_type = this.surgery_type;
