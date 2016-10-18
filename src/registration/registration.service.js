@@ -30,7 +30,7 @@ function RegistrationService($http) {
     var obj = JSON.stringify({tcm_basic_contact: personalInfo[0], tcm_patient_info: health})
 
 
-    $http.post("http://ec2-54-187-141-110.us-west-2.compute.amazonaws.com:3000/contacts", obj)
+    $http.post("https://salty-journey-18993.herokuapp.com/contacts", obj)
     .success(function(data, status, headers, config){
       console.log(data);
     }).error(function(data,status,headers,config){
