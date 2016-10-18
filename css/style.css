@@ -560,6 +560,11 @@
 		padding-bottom: 15px;
 	}
 
+	#woman_side input{
+		position: relative;
+		z-index: 999;
+	}
+
 	#pregnant {
 		padding-top: 0;
 		padding-bottom: 0;
