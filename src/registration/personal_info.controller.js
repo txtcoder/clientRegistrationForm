@@ -15,10 +15,16 @@ function PersonalInfoController(RegistrationService, $location) {
     obj.name=this.name;
     obj.occupation=this.occupation;
     obj.birth_date=this.birth_date;
-    obj.height=this.height;
-    obj.height_type=this.height_type;
-    obj.weight=this.weight;
-    obj.weight_type=this.weight_type;
+    if (obj.height_type=="cm"){
+      obj.height=this.height;
+    } else {
+      obj.height=Math.round(this.height*30.48);
+    }
+    if (obj.weight_type=="kg"){
+      obj.weight=this.weight;
+    } else {
+      obj.weight=Math.round(this.weight/2.20462);
+    }
     obj.address=this.address;
     obj.postal_code=this.postal_code;
     obj.city=this.city;
