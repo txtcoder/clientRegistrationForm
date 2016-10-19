@@ -162,33 +162,47 @@ function HealthHistoryController(RegistrationService,$location) {
     obj.previous_pain_low_back = this.previous_pain_low_back;
     obj.previous_stiff_low_back = this.previous_stiff_low_back;
 
-    obj.current_pain_leg = this.current_pain_leg;
-    obj.current_stiff_leg = this.current_stiff_leg;
-    obj.previous_pain_leg = this.previous_pain_leg;
-    obj.previous_stiff_leg = this.previous_stiff_leg;
-    obj.leg_left = this.leg_left;
-    obj.leg_right = this.leg_right;
+    obj.current_pain_left_leg = this.current_pain_left_leg;
+    obj.current_stiff_left_leg = this.current_stiff_left_leg;
+    obj.previous_pain_left_leg = this.previous_pain_left_leg;
+    obj.previous_stiff_left_leg = this.previous_stiff_left_leg;
 
-    obj.current_pain_hip = this.current_pain_hip;
-    obj.current_stiff_hip = this.current_stiff_hip;
-    obj.previous_pain_hip = this.previous_pain_hip;
-    obj.previous_stiff_hip = this.previous_stiff_hip;
-    obj.hip_left = this.hip_left;
-    obj.hip_right = this.hip_right;
+    obj.current_pain_right_leg = this.current_pain_right_leg;
+    obj.current_stiff_right_leg = this.current_stiff_right_leg;
+    obj.previous_pain_right_leg = this.previous_pain_right_leg;
+    obj.previous_stiff_right_leg = this.previous_stiff_right_leg;
 
-    obj.current_pain_knee = this.current_pain_knee;
-    obj.current_stiff_knee = this.current_stiff_knee;
-    obj.previous_pain_knee = this.previous_pain_knee;
-    obj.previous_stiff_knee = this.previous_stiff_knee;
-    obj.knee_left = this.knee_left;
-    obj.knee_right = this.knee_right;
+    obj.current_pain_left_hip = this.current_pain_left_hip;
+    obj.current_stiff_left_hip = this.current_stiff_left_hip;
+    obj.previous_pain_left_hip = this.previous_pain_left_hip;
+    obj.previous_stiff_left_hip = this.previous_stiff_left_hip;
 
-    obj.current_pain_foot = this.current_pain_foot;
-    obj.current_stiff_foot = this.current_stiff_foot;
-    obj.previous_pain_foot = this.previous_pain_foot;
-    obj.previous_stiff_foot = this.previous_stiff_foot;
-    obj.foot_left = this.foot_left;
-    obj.foot_right = this.foot_right;
+    obj.current_pain_right_hip = this.current_pain_right_hip;
+    obj.current_stiff_right_hip = this.current_stiff_right_hip;
+    obj.previous_pain_right_hip = this.previous_pain_right_hip;
+    obj.previous_stiff_right_hip = this.previous_stiff_right_hip;
+
+
+    obj.current_pain_left_knee = this.current_pain_left_knee;
+    obj.current_stiff_left_knee = this.current_stiff_left_knee;
+    obj.previous_pain_left_knee = this.previous_pain_left_knee;
+    obj.previous_stiff_left_knee = this.previous_stiff_left_knee;
+
+    obj.current_pain_right_knee = this.current_pain_right_knee;
+    obj.current_stiff_right_knee = this.current_stiff_right_knee;
+    obj.previous_pain_right_knee = this.previous_pain_right_knee;
+    obj.previous_stiff_right_knee = this.previous_stiff_right_knee;
+
+    obj.current_pain_left_foot = this.current_pain_left_foot;
+    obj.current_stiff_left_foot = this.current_stiff_left_foot;
+    obj.previous_pain_left_foot = this.previous_pain_left_foot;
+    obj.previous_stiff_left_foot = this.previous_stiff_left_foot;
+
+
+    obj.current_pain_right_foot = this.current_pain_right_foot;
+    obj.current_stiff_right_foot = this.current_stiff_right_foot;
+    obj.previous_pain_right_foot = this.previous_pain_right_foot;
+    obj.previous_stiff_right_foot = this.previous_stiff_right_foot;
 
     RegistrationService.updateHealthHistory(obj);
     $location.path("/health_historyII");
