@@ -51,6 +51,7 @@ function HealthHistoryControllerII(RegistrationService,$location) {
      obj.supplements = this.supplements;
      obj.chinese_herbals = this.chinese_herbals;
      RegistrationService.updateHealthHistoryII(obj);
+     $location.path("/");
    }
 
 }
