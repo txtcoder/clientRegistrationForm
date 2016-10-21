@@ -101,6 +101,8 @@
 		padding-left:30px;
 		padding-right: 30px;
 		color: white;
+		position: relative;
+		z-index: 99999;
 	}
 	.form-control{
 		box-shadow: none;
