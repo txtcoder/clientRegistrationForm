@@ -429,9 +429,10 @@
 	  outline:none;
 	}
 
+	/*
 	.radio input[type='checkbox']:hover {
 	  border: 4px solid #27bcb8;
-	}
+	}   blocked for now because it has issues for tablet verison */
 
 	.radio input[type='checkbox']:checked{
 	  background:#27bcb8;
