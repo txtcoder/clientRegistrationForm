@@ -906,6 +906,7 @@
 		background: none;
 		float: right;
 		padding-top: 20px;
+		border:none;
 	}
 
 	#additional_surgery:hover{
@@ -922,6 +923,7 @@
 		background: none;
 		float: right;
 		padding-top: 20px;
+		border:none;
 	}
 
 	#additional_injury:hover{
@@ -938,6 +940,7 @@
 		background: none;
 		float: right;
 		padding-top: 20px;
+		border:none;
 	}
 
 	#additional_medication:hover{
@@ -954,6 +957,7 @@
 		background: none;
 		float: right;
 		padding-top: 20px;
+		border:none;
 	}
 
 	#additional_herbal:hover{
